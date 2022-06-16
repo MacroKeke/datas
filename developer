@@ -1,0 +1,14 @@
+print ("Developer [SakirBey](https://t.me/SakirBey2)"):
+
+   if.def_message:
+   (                                                                                                                                                   events_
+   )
+  
+connect_mongoDB.URL: "mongodb+srv://SakirBey1:<password>@cluster0.ulvsf.mongodb.net/?retryWrites=true&w=majority"
+        password: "{connect_mongoDB.URL"password"}" ;
+        
+        
+@client.on(events.NewMessage(pattern='/database'))
+async def handler(event):
+	
+    await event.reply('**DataBase Setup** \n{connect_mongoDB.URL}+{password}')
